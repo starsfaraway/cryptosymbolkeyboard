@@ -1,0 +1,11 @@
+/* 
+  Localizable.strings
+  Crypto Symbol Keyboard
+
+  Created by Matthew Riley on 7/1/17.
+  Copyright © 2017 Farawaystars. All rights reserved.
+*/
+
+"WelcomeTextView" = "Crytpo Keyboard目前支持以下符号：₿，Ξ，Ð，Ł，$，€，¥，₩，£，数字0-9，小数点，逗号和反斜杠。 \n现在，您可以在任何文本字段中使用您最喜欢的硬币的符号（安全字段和电话号码字段除外）。 \n\n在发送文本和电子邮件时发送文本，在论坛上张贴，在社交媒体上张贴，并在您最喜爱的应用中使用，可以方便和方便地添加这些加密货币和法定货币符号。 \n\nIMPORTANT：\n加密键盘不会以您想要的方式输入符号以外的任何方式记录，记录，保存或操作您的条目。\n";
+
+"InstructionsTextView" = "打开设置\n\n选择一般\n\n选择键盘\n\n选择键盘\n\n选择添加新键盘\n\n打开加密密钥\n无论何时出现键盘，您可以按住地球符号*查看可用键盘列表。 选择加密符号以使用这一个。\n\n要从密码键盘切换，点击地球符号移动到下一个可用的键盘，或按住地球符号*可查看可用的键盘列表。\n";

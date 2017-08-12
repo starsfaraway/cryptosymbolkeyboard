@@ -1,0 +1,22 @@
+
+/* Class = "UIButton"; normalTitle = "Get Started →"; ObjectID = "2Xk-pW-HFH"; */
+"2Xk-pW-HFH.normalTitle" = "開始する →";
+
+/* Class = "UILabel"; text = "    🌐"; ObjectID = "Bib-ex-Avl"; */
+"Bib-ex-Avl.text" = "    🌐";
+
+/* Class = "UITextView"; text = "Open Settings\n\nTap General\n\nTap Keyboard\n\nTap Keyboards\n\nTap Add New Keyboard\n\nTap Crypto Keys
+\nWhenever the keyboard appears, you can hold  the globe symbol* to see a list of available keyboards. Select Crypto Symbols to use this one.\n\nTo switch away from the Crypto Keys keyboard, tap the globe symbol to move to the next available keyboard, or hold the globe symbol* to see a list of available keyboards.\n"; ObjectID = "BzK-Sd-gSl"; */
+"BzK-Sd-gSl.text" = "開いている設定\n\n一般\n\nキーボードをタップ\n\nキーボードをタップ\n\n新しいキーボードを追加\n\n暗号キーをタップ\nキーボードが表示されたら、地球儀記号*を押して使用可能なキーボードの一覧を表示できます 。 これを使用するには、暗号シンボルを選択してください。\n\n暗号鍵キーボードから離れて移動するには、グローブシンボルをタップして使用可能な次の鍵盤に移動するか、地球儀シンボル*を押して利用可能な鍵盤リストを表示してください。";
+
+/* Class = "UILabel"; text = "*globe symbol =       "; ObjectID = "EdZ-ap-yiP"; */
+"EdZ-ap-yiP.text" = "*地球シンボル=      ";
+
+/* Class = "UIButton"; normalTitle = "< Back"; ObjectID = "MIR-Jg-jXw"; */
+"MIR-Jg-jXw.normalTitle" = "< バック";
+
+/* Class = "UITextView"; text = "The Crytpo Keyboard currently supports the following symbols: ₿, Ξ, Ð, Ł, $, €, ¥, ₩, £, the numbers 0-9, the decimal point, comma, and backslash. \nNow you can use the symbols of your favorite coin in any text field (except secure fields and phone number fields). \n\nEnjoy the ease and convenience of adding these cryptocurrency and fiat currency symbols when sending texts and emails, posting on messages boards, posting on forums, posting on social media, and using in your favorite apps. \n\nIMPORTANT:\nThe Crypto Keyboard does not log, record, save, or manipulate your entries in any way other than entering your symbol where you want it.\n"; ObjectID = "v2w-yQ-oPw"; */
+"v2w-yQ-oPw.text" = "Crytpoキーボードは現在、以下の記号をサポートしています：₿、Ξ、Ð、Ł、$、€、¥、£、数字0-9、小数点、コンマ、およびバックスラッシュ。 \nここでは、任意のテキストフィールド（安全なフィールドと電話番号フィールドを除く）にお気に入りのコインのシンボルを使用することができます。 \n\nテキストとメールの送信、掲示板への投稿、フォーラムへの投稿、ソーシャルメディアへの投稿、お気に入りのアプリでの使用時に、これらの暗号化と通貨記号を追加することの容易さと利便性を忘れないでください。 \n\n重要：\n暗号キーボードは、必要な場所にシンボルを入力する以外の方法でエントリを記録、記録、保存、または操作することはありません。\n";
+
+/* Class = "UILabel"; text = "This is how you can use your new crypto keyboard:"; ObjectID = "vQx-0y-Zyi"; */
+"vQx-0y-Zyi.text" = "これは、新しい暗号キーボードを使用する方法です。";

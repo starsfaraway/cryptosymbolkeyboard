@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="matrix-101" translatesAutoresizingMaskIntoConstraints="NO" id="wNH-YG-LcX">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xMg-jq-hsm">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="30"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.80000000000000004" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="30" id="LnE-wC-tU7"/>
+                                    <constraint firstAttribute="height" constant="30" id="dzB-qY-Wir"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Crypto Keys" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CdB-D4-RON">
+                                <rect key="frame" x="0.0" y="283.5" width="375" height="100"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.80000000000000004" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="895-Lj-0B2"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <size key="shadowOffset" width="1" height="1"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="keyboard" translatesAutoresizingMaskIntoConstraints="NO" id="yQd-ex-0JE">
+                                <rect key="frame" x="0.0" y="617" width="375" height="50"/>
+                                <color key="backgroundColor" red="0.0" green="1" blue="0.0" alpha="0.75" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="v5a-FO-R5a"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="xMg-jq-hsm" secondAttribute="trailing" id="29Y-U2-ABS"/>
+                            <constraint firstItem="xMg-jq-hsm" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="4Tk-GQ-Dsn"/>
+                            <constraint firstItem="xMg-jq-hsm" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="4YB-Jj-rhw"/>
+                            <constraint firstAttribute="trailing" secondItem="wNH-YG-LcX" secondAttribute="trailing" id="83K-St-Fe5"/>
+                            <constraint firstItem="yQd-ex-0JE" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="DVO-M4-D33"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="yQd-ex-0JE" secondAttribute="bottom" id="J3S-hf-6IP"/>
+                            <constraint firstItem="wNH-YG-LcX" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="NuP-3g-EZt"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="wNH-YG-LcX" secondAttribute="bottom" id="Q8e-J9-F1x"/>
+                            <constraint firstItem="CdB-D4-RON" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="XQT-f5-usC"/>
+                            <constraint firstAttribute="trailing" secondItem="CdB-D4-RON" secondAttribute="trailing" id="beb-Gn-MlP"/>
+                            <constraint firstItem="CdB-D4-RON" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="dBG-ux-Urh"/>
+                            <constraint firstItem="wNH-YG-LcX" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="hDe-lG-nqP"/>
+                            <constraint firstAttribute="trailing" secondItem="yQd-ex-0JE" secondAttribute="trailing" id="lMk-Sy-XdA"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="keyboard" width="106" height="71"/>
+        <image name="matrix-101" width="1920" height="1920"/>
+    </resources>
+</document>

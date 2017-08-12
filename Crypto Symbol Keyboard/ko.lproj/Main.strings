@@ -1,0 +1,22 @@
+
+/* Class = "UIButton"; normalTitle = "Get Started →"; ObjectID = "2Xk-pW-HFH"; */
+"2Xk-pW-HFH.normalTitle" = "시작하다 →";
+
+/* Class = "UILabel"; text = "    🌐"; ObjectID = "Bib-ex-Avl"; */
+"Bib-ex-Avl.text" = "    🌐";
+
+/* Class = "UITextView"; text = "Open Settings\n\nTap General\n\nTap Keyboard\n\nTap Keyboards\n\nTap Add New Keyboard\n\nTap Crypto Keys
+\nWhenever the keyboard appears, you can hold  the globe symbol* to see a list of available keyboards. Select Crypto Symbols to use this one.\n\nTo switch away from the Crypto Keys keyboard, tap the globe symbol to move to the next available keyboard, or hold the globe symbol* to see a list of available keyboards.\n"; ObjectID = "BzK-Sd-gSl"; */
+"BzK-Sd-gSl.text" = "열기 설정 \n\n 일반 탭 \n\n 키보드 \n\n 키보드 누르기 \n\n 새 키보드 추가 \n\n 암호화 키 누르기 \n 키보드가 나타날 때마다 지구 기호 *를 눌러 사용 가능한 키보드 목록을 볼 수 있습니다 . 이 키를 사용하려면 암호화 기호를 선택하십시오. \n\n 암호 키 키보드에서 전환하려면 글로브 기호를 눌러 다음 사용 가능한 키보드로 이동하거나 글로브 기호 *를 사용하여 사용 가능한 키보드 목록을 표시하십시오. \n";
+
+/* Class = "UILabel"; text = "*globe symbol =       "; ObjectID = "EdZ-ap-yiP"; */
+"EdZ-ap-yiP.text" = "*지구의 상징 =       ";
+
+/* Class = "UIButton"; normalTitle = "< Back"; ObjectID = "MIR-Jg-jXw"; */
+"MIR-Jg-jXw.normalTitle" = "< 뒤로";
+
+/* Class = "UITextView"; text = "The Crytpo Keyboard currently supports the following symbols: ₿, Ξ, Ð, Ł, $, €, ¥, ₩, £, the numbers 0-9, the decimal point, comma, and backslash. \nNow you can use the symbols of your favorite coin in any text field (except secure fields and phone number fields). \n\nEnjoy the ease and convenience of adding these cryptocurrency and fiat currency symbols when sending texts and emails, posting on messages boards, posting on forums, posting on social media, and using in your favorite apps. \n\nIMPORTANT:\nThe Crypto Keyboard does not log, record, save, or manipulate your entries in any way other than entering your symbol where you want it.\n"; ObjectID = "v2w-yQ-oPw"; */
+"v2w-yQ-oPw.text" = "Crypto Keyboard는 현재 다음 기호를 지원합니다 : ₿, Ξ, Ð,,, $, €, ¥, ₩, £ 0-9, 소수점, 쉼표 및 백 슬래시. \n 이제 텍스트 필드에서 원하는 동전의 기호를 사용할 수 있습니다 (보안 필드 및 전화 번호 필드 제외). \n\n 텍스트 및 이메일을 보내고, 게시판에 게시하고, 포럼에 게시하고, 소셜 미디어에 게시하고, 좋아하는 앱에서 사용할 때 이러한 cryptocurrency 및 fiat 통화 기호를 추가하는 쉽고 편리함을 즐기십시오. \n\n 중요 : \n 암호화 키보드는 기호를 원하는 위치에 입력하는 것 이외의 방법으로 항목을 기록, 저장 또는 조작하지 않습니다. \n";
+
+/* Class = "UILabel"; text = "This is how you can use your new crypto keyboard:"; ObjectID = "vQx-0y-Zyi"; */
+"vQx-0y-Zyi.text" = "다음은 새 암호 키보드를 사용하는 방법입니다.";

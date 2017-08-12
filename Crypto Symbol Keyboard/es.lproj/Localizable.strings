@@ -1,0 +1,11 @@
+/* 
+  Localizable.strings
+  Crypto Symbol Keyboard
+
+  Created by Matthew Riley on 7/1/17.
+  Copyright © 2017 Farawaystars. All rights reserved.
+*/
+
+"WelcomeTextView" = "El Teclado Crypto soporta actualmente los siguientes símbolos: ₿, Ξ, Ð, Ł, $, ¥, ¥, £, los números 0-9, el punto decimal, la coma y la barra invertida. \n Ahora puede usar los símbolos de su moneda favorita en cualquier campo de texto (excepto los campos seguros y los campos de números de teléfono). \n\n Disfrute de la facilidad y conveniencia de agregar estos símbolos de moneda criptocurrencia y fiduciaria al enviar mensajes de texto y mensajes de correo electrónico, publicar mensajes en los foros, publicar en los foros, publicar en las redes sociales y usarlas en sus aplicaciones favoritas. \n \n IMPORTANTE: \n El Teclado Crypto no registra, graba, guarda ni manipula sus entradas de ninguna otra forma que no sea la de ingresar el símbolo donde lo desee. \n";
+
+"InstructionsTextView" = "Abrir Configuración \n\nTop General \n\nTocar Teclado \n\nTocar Teclados \n\nTocar Añadir Nuevo Teclado \n\nTocar Teclas Criptográficas \nCuando el teclado aparezca, puede contener el símbolo * para ver una lista de teclados disponibles . Seleccione Símbolos criptográficos para usar este. \n\nPara alejarse del teclado de las claves criptográficas, toque el símbolo del globo para pasar al siguiente teclado disponible o sostenga el símbolo del globo * para ver una lista de teclados disponibles.";

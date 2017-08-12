@@ -1,0 +1,550 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A64C62CA1EFD86300084965C /* Symbola.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A64C62C91EFD86300084965C /* Symbola.ttf */; };
+		A64C62CB1EFD86300084965C /* Symbola.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A64C62C91EFD86300084965C /* Symbola.ttf */; };
+		A64C62CC1EFD87970084965C /* UIView+DropShadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A66A88031EEDF8F200A3FD59 /* UIView+DropShadow.swift */; };
+		A66A87E01EED979C00A3FD59 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A66A87DF1EED979C00A3FD59 /* AppDelegate.swift */; };
+		A66A87E51EED979C00A3FD59 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A66A87E31EED979C00A3FD59 /* Main.storyboard */; };
+		A66A87E71EED979C00A3FD59 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A66A87E61EED979C00A3FD59 /* Assets.xcassets */; };
+		A66A87EA1EED979C00A3FD59 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A66A87E81EED979C00A3FD59 /* LaunchScreen.storyboard */; };
+		A66A87F81EED97DC00A3FD59 /* KeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A66A87F71EED97DC00A3FD59 /* KeyboardViewController.swift */; };
+		A66A87FC1EED97DC00A3FD59 /* Crypto Keyboard Ext.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = A66A87F51EED97DC00A3FD59 /* Crypto Keyboard Ext.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		A66A88041EEDF8F200A3FD59 /* UIView+DropShadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A66A88031EEDF8F200A3FD59 /* UIView+DropShadow.swift */; };
+		A66A88091EEE27B100A3FD59 /* KeyboardTutorialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A66A88071EEE27B100A3FD59 /* KeyboardTutorialViewController.swift */; };
+		A66A880C1EEE2B3600A3FD59 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A66A880B1EEE2B3600A3FD59 /* WelcomeViewController.swift */; };
+		C90373C71F06DA6C002BEF39 /* KeyboardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C90373C91F06DA6C002BEF39 /* KeyboardView.xib */; };
+		C90373D91F082C7C002BEF39 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = C90373DB1F082C7C002BEF39 /* Localizable.strings */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A66A87FA1EED97DC00A3FD59 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A66A87D41EED979C00A3FD59 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A66A87F41EED97DC00A3FD59;
+			remoteInfo = "Crypto Keyboard Ext";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A66A88001EED97DC00A3FD59 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				A66A87FC1EED97DC00A3FD59 /* Crypto Keyboard Ext.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A646AA951EFF6E4600092079 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Main.strings; sourceTree = "<group>"; };
+		A646AA961EFF6E4600092079 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		A646AA971EFF6E4F00092079 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/Main.strings; sourceTree = "<group>"; };
+		A646AA981EFF6E4F00092079 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		A646AA991EFF6E8100092079 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Main.strings; sourceTree = "<group>"; };
+		A646AA9A1EFF6E8200092079 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		A646AA9B1EFF6EEA00092079 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		A646AA9C1EFF6EEA00092079 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		A64C62C91EFD86300084965C /* Symbola.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Symbola.ttf; sourceTree = "<group>"; };
+		A66A87DC1EED979C00A3FD59 /* Crypto Symbol Keyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Crypto Symbol Keyboard.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A66A87DF1EED979C00A3FD59 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A66A87E41EED979C00A3FD59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A66A87E61EED979C00A3FD59 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A66A87E91EED979C00A3FD59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A66A87EB1EED979C00A3FD59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A66A87F51EED97DC00A3FD59 /* Crypto Keyboard Ext.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Crypto Keyboard Ext.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A66A87F71EED97DC00A3FD59 /* KeyboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardViewController.swift; sourceTree = "<group>"; };
+		A66A87F91EED97DC00A3FD59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A66A88031EEDF8F200A3FD59 /* UIView+DropShadow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+DropShadow.swift"; sourceTree = "<group>"; };
+		A66A88071EEE27B100A3FD59 /* KeyboardTutorialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardTutorialViewController.swift; sourceTree = "<group>"; };
+		A66A880B1EEE2B3600A3FD59 /* WelcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		C90373C81F06DA6C002BEF39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/KeyboardView.xib; sourceTree = "<group>"; };
+		C90373CD1F06DA7F002BEF39 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/KeyboardView.strings; sourceTree = "<group>"; };
+		C90373CF1F06DA81002BEF39 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/KeyboardView.strings; sourceTree = "<group>"; };
+		C90373D11F06DA82002BEF39 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/KeyboardView.strings; sourceTree = "<group>"; };
+		C90373D31F06DA84002BEF39 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/KeyboardView.strings"; sourceTree = "<group>"; };
+		C90373DA1F082C7C002BEF39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		C90373DC1F082C80002BEF39 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		C90373DD1F082C81002BEF39 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/Localizable.strings; sourceTree = "<group>"; };
+		C90373DE1F082C82002BEF39 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
+		C90373DF1F082C83002BEF39 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A66A87D91EED979C00A3FD59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A66A87F21EED97DC00A3FD59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A64C62C81EFD861C0084965C /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				A64C62C91EFD86300084965C /* Symbola.ttf */,
+			);
+			name = Font;
+			sourceTree = "<group>";
+		};
+		A66A87D31EED979C00A3FD59 = {
+			isa = PBXGroup;
+			children = (
+				A66A87DE1EED979C00A3FD59 /* Crypto Symbol Keyboard */,
+				A66A87F61EED97DC00A3FD59 /* Crypto Keyboard Ext */,
+				A66A87DD1EED979C00A3FD59 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A66A87DD1EED979C00A3FD59 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A66A87DC1EED979C00A3FD59 /* Crypto Symbol Keyboard.app */,
+				A66A87F51EED97DC00A3FD59 /* Crypto Keyboard Ext.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A66A87DE1EED979C00A3FD59 /* Crypto Symbol Keyboard */ = {
+			isa = PBXGroup;
+			children = (
+				A66A87DF1EED979C00A3FD59 /* AppDelegate.swift */,
+				A66A87EB1EED979C00A3FD59 /* Info.plist */,
+				C90373DB1F082C7C002BEF39 /* Localizable.strings */,
+				C90373D51F0829E7002BEF39 /* UI */,
+				C90373D41F0829D2002BEF39 /* View Controllers */,
+				A64C62C81EFD861C0084965C /* Font */,
+			);
+			path = "Crypto Symbol Keyboard";
+			sourceTree = "<group>";
+		};
+		A66A87F61EED97DC00A3FD59 /* Crypto Keyboard Ext */ = {
+			isa = PBXGroup;
+			children = (
+				A66A87F71EED97DC00A3FD59 /* KeyboardViewController.swift */,
+				C90373C91F06DA6C002BEF39 /* KeyboardView.xib */,
+				A66A88031EEDF8F200A3FD59 /* UIView+DropShadow.swift */,
+				A66A87F91EED97DC00A3FD59 /* Info.plist */,
+			);
+			path = "Crypto Keyboard Ext";
+			sourceTree = "<group>";
+		};
+		C90373D41F0829D2002BEF39 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A66A880B1EEE2B3600A3FD59 /* WelcomeViewController.swift */,
+				A66A88071EEE27B100A3FD59 /* KeyboardTutorialViewController.swift */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		C90373D51F0829E7002BEF39 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				A66A87E31EED979C00A3FD59 /* Main.storyboard */,
+				A66A87E61EED979C00A3FD59 /* Assets.xcassets */,
+				A66A87E81EED979C00A3FD59 /* LaunchScreen.storyboard */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A66A87DB1EED979C00A3FD59 /* Crypto Symbol Keyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A66A87EE1EED979C00A3FD59 /* Build configuration list for PBXNativeTarget "Crypto Symbol Keyboard" */;
+			buildPhases = (
+				A66A87D81EED979C00A3FD59 /* Sources */,
+				A66A87D91EED979C00A3FD59 /* Frameworks */,
+				A66A87DA1EED979C00A3FD59 /* Resources */,
+				A66A88001EED97DC00A3FD59 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A66A87FB1EED97DC00A3FD59 /* PBXTargetDependency */,
+			);
+			name = "Crypto Symbol Keyboard";
+			productName = "Crypto Symbol Keyboard";
+			productReference = A66A87DC1EED979C00A3FD59 /* Crypto Symbol Keyboard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A66A87F41EED97DC00A3FD59 /* Crypto Keyboard Ext */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A66A87FD1EED97DC00A3FD59 /* Build configuration list for PBXNativeTarget "Crypto Keyboard Ext" */;
+			buildPhases = (
+				A66A87F11EED97DC00A3FD59 /* Sources */,
+				A66A87F21EED97DC00A3FD59 /* Frameworks */,
+				A66A87F31EED97DC00A3FD59 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Crypto Keyboard Ext";
+			productName = "Crypto Keyboard Ext";
+			productReference = A66A87F51EED97DC00A3FD59 /* Crypto Keyboard Ext.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A66A87D41EED979C00A3FD59 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Farawaystars;
+				TargetAttributes = {
+					A66A87DB1EED979C00A3FD59 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = LC6LA68FBS;
+						ProvisioningStyle = Automatic;
+					};
+					A66A87F41EED97DC00A3FD59 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = LC6LA68FBS;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = A66A87D71EED979C00A3FD59 /* Build configuration list for PBXProject "Crypto Symbol Keyboard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				es,
+				ko,
+				ja,
+				"zh-Hans",
+			);
+			mainGroup = A66A87D31EED979C00A3FD59;
+			productRefGroup = A66A87DD1EED979C00A3FD59 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A66A87DB1EED979C00A3FD59 /* Crypto Symbol Keyboard */,
+				A66A87F41EED97DC00A3FD59 /* Crypto Keyboard Ext */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A66A87DA1EED979C00A3FD59 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A64C62CA1EFD86300084965C /* Symbola.ttf in Resources */,
+				C90373D91F082C7C002BEF39 /* Localizable.strings in Resources */,
+				A66A87EA1EED979C00A3FD59 /* LaunchScreen.storyboard in Resources */,
+				A66A87E71EED979C00A3FD59 /* Assets.xcassets in Resources */,
+				A66A87E51EED979C00A3FD59 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A66A87F31EED97DC00A3FD59 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A64C62CB1EFD86300084965C /* Symbola.ttf in Resources */,
+				C90373C71F06DA6C002BEF39 /* KeyboardView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A66A87D81EED979C00A3FD59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A66A880C1EEE2B3600A3FD59 /* WelcomeViewController.swift in Sources */,
+				A64C62CC1EFD87970084965C /* UIView+DropShadow.swift in Sources */,
+				A66A87E01EED979C00A3FD59 /* AppDelegate.swift in Sources */,
+				A66A88091EEE27B100A3FD59 /* KeyboardTutorialViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A66A87F11EED97DC00A3FD59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A66A87F81EED97DC00A3FD59 /* KeyboardViewController.swift in Sources */,
+				A66A88041EEDF8F200A3FD59 /* UIView+DropShadow.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A66A87FB1EED97DC00A3FD59 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A66A87F41EED97DC00A3FD59 /* Crypto Keyboard Ext */;
+			targetProxy = A66A87FA1EED97DC00A3FD59 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A66A87E31EED979C00A3FD59 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A66A87E41EED979C00A3FD59 /* Base */,
+				A646AA951EFF6E4600092079 /* es */,
+				A646AA971EFF6E4F00092079 /* ko */,
+				A646AA991EFF6E8100092079 /* ja */,
+				A646AA9B1EFF6EEA00092079 /* zh-Hans */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A66A87E81EED979C00A3FD59 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A66A87E91EED979C00A3FD59 /* Base */,
+				A646AA961EFF6E4600092079 /* es */,
+				A646AA981EFF6E4F00092079 /* ko */,
+				A646AA9A1EFF6E8200092079 /* ja */,
+				A646AA9C1EFF6EEA00092079 /* zh-Hans */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		C90373C91F06DA6C002BEF39 /* KeyboardView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C90373C81F06DA6C002BEF39 /* Base */,
+				C90373CD1F06DA7F002BEF39 /* es */,
+				C90373CF1F06DA81002BEF39 /* ko */,
+				C90373D11F06DA82002BEF39 /* ja */,
+				C90373D31F06DA84002BEF39 /* zh-Hans */,
+			);
+			name = KeyboardView.xib;
+			sourceTree = "<group>";
+		};
+		C90373DB1F082C7C002BEF39 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C90373DA1F082C7C002BEF39 /* Base */,
+				C90373DC1F082C80002BEF39 /* es */,
+				C90373DD1F082C81002BEF39 /* ko */,
+				C90373DE1F082C82002BEF39 /* ja */,
+				C90373DF1F082C83002BEF39 /* zh-Hans */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A66A87EC1EED979C00A3FD59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A66A87ED1EED979C00A3FD59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A66A87EF1EED979C00A3FD59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = LC6LA68FBS;
+				INFOPLIST_FILE = "Crypto Symbol Keyboard/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.farawaystars.Crypto-Symbol-Keyboard";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		A66A87F01EED979C00A3FD59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = LC6LA68FBS;
+				INFOPLIST_FILE = "Crypto Symbol Keyboard/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.farawaystars.Crypto-Symbol-Keyboard";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		A66A87FE1EED97DC00A3FD59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = LC6LA68FBS;
+				INFOPLIST_FILE = "Crypto Keyboard Ext/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.farawaystars.Crypto-Symbol-Keyboard.Crypto-Keyboard-Ext";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		A66A87FF1EED97DC00A3FD59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = LC6LA68FBS;
+				INFOPLIST_FILE = "Crypto Keyboard Ext/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.farawaystars.Crypto-Symbol-Keyboard.Crypto-Keyboard-Ext";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A66A87D71EED979C00A3FD59 /* Build configuration list for PBXProject "Crypto Symbol Keyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A66A87EC1EED979C00A3FD59 /* Debug */,
+				A66A87ED1EED979C00A3FD59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A66A87EE1EED979C00A3FD59 /* Build configuration list for PBXNativeTarget "Crypto Symbol Keyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A66A87EF1EED979C00A3FD59 /* Debug */,
+				A66A87F01EED979C00A3FD59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A66A87FD1EED97DC00A3FD59 /* Build configuration list for PBXNativeTarget "Crypto Keyboard Ext" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A66A87FE1EED97DC00A3FD59 /* Debug */,
+				A66A87FF1EED97DC00A3FD59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A66A87D41EED979C00A3FD59 /* Project object */;
+}

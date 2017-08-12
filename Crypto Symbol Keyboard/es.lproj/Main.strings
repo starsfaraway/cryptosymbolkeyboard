@@ -1,0 +1,22 @@
+
+/* Class = "UIButton"; normalTitle = "Get Started →"; ObjectID = "2Xk-pW-HFH"; */
+"2Xk-pW-HFH.normalTitle" = "Empezar →";
+
+/* Class = "UILabel"; text = "    🌐"; ObjectID = "Bib-ex-Avl"; */
+"Bib-ex-Avl.text" = "    🌐";
+
+/* Class = "UITextView"; text = "Open Settings\n\nTap General\n\nTap Keyboard\n\nTap Keyboards\n\nTap Add New Keyboard\n\nTap Crypto Keys
+\nWhenever the keyboard appears, you can hold  the globe symbol* to see a list of available keyboards. Select Crypto Symbols to use this one.\n\nTo switch away from the Crypto Keys keyboard, tap the globe symbol to move to the next available keyboard, or hold the globe symbol* to see a list of available keyboards.\n"; ObjectID = "BzK-Sd-gSl"; */
+"BzK-Sd-gSl.text" = "Abrir Configuración \n\nTop General \n\nTocar Teclado \n\nTocar Teclados \n\nTocar Añadir Nuevo Teclado \n\nTocar Teclas Criptográficas \nCuando el teclado aparezca, puede contener el símbolo * para ver una lista de teclados disponibles . Seleccione Símbolos criptográficos para usar este. \n\nPara alejarse del teclado de las claves criptográficas, toque el símbolo del globo para pasar al siguiente teclado disponible o sostenga el símbolo del globo * para ver una lista de teclados disponibles.";
+
+/* Class = "UILabel"; text = "*globe symbol =       "; ObjectID = "EdZ-ap-yiP"; */
+"EdZ-ap-yiP.text" = "*Globo símbolo =       ";
+
+/* Class = "UIButton"; normalTitle = "< Back"; ObjectID = "MIR-Jg-jXw"; */
+"MIR-Jg-jXw.normalTitle" = "< Espalda";
+
+/* Class = "UITextView"; text = "The Crytpo Keyboard currently supports the following symbols: ₿, Ξ, Ð, Ł, $, €, ¥, ₩, £, the numbers 0-9, the decimal point, comma, and backslash. \nNow you can use the symbols of your favorite coin in any text field (except secure fields and phone number fields). \n\nEnjoy the ease and convenience of adding these cryptocurrency and fiat currency symbols when sending texts and emails, posting on messages boards, posting on forums, posting on social media, and using in your favorite apps. \n\nIMPORTANT:\nThe Crypto Keyboard does not log, record, save, or manipulate your entries in any way other than entering your symbol where you want it.\n"; ObjectID = "v2w-yQ-oPw"; */
+"v2w-yQ-oPw.text" = "El Teclado Crypto soporta actualmente los siguientes símbolos: ₿, Ξ, Ð, Ł, $, ¥, ¥, £, los números 0-9, el punto decimal, la coma y la barra invertida. \n Ahora puede usar los símbolos de su moneda favorita en cualquier campo de texto (excepto los campos seguros y los campos de números de teléfono). \n\n Disfrute de la facilidad y conveniencia de agregar estos símbolos de moneda criptocurrencia y fiduciaria al enviar mensajes de texto y mensajes de correo electrónico, publicar mensajes en los foros, publicar en los foros, publicar en las redes sociales y usarlas en sus aplicaciones favoritas. \n \n IMPORTANTE: \n El Teclado Crypto no registra, graba, guarda ni manipula sus entradas de ninguna otra forma que no sea la de ingresar el símbolo donde lo desee. \n";
+
+/* Class = "UILabel"; text = "This is how you can use your new crypto keyboard:"; ObjectID = "vQx-0y-Zyi"; */
+"vQx-0y-Zyi.text" = "Así es como puede utilizar su nuevo teclado criptográfico:";

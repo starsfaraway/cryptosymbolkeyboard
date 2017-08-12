@@ -1,0 +1,22 @@
+
+/* Class = "UIButton"; normalTitle = "Get Started →"; ObjectID = "2Xk-pW-HFH"; */
+"2Xk-pW-HFH.normalTitle" = "开始使用 →";
+
+/* Class = "UILabel"; text = "    🌐"; ObjectID = "Bib-ex-Avl"; */
+"Bib-ex-Avl.text" = "    🌐";
+
+/* Class = "UITextView"; text = "Open Settings\n\nTap General\n\nTap Keyboard\n\nTap Keyboards\n\nTap Add New Keyboard\n\nTap Crypto Keys
+\nWhenever the keyboard appears, you can hold  the globe symbol* to see a list of available keyboards. Select Crypto Symbols to use this one.\n\nTo switch away from the Crypto Keys keyboard, tap the globe symbol to move to the next available keyboard, or hold the globe symbol* to see a list of available keyboards.\n"; ObjectID = "BzK-Sd-gSl"; */
+"BzK-Sd-gSl.text" = "打开设置\n\n选择一般\n\n选择键盘\n\n选择键盘\n\n选择添加新键盘\n\n打开加密密钥\n无论何时出现键盘，您可以按住地球符号*查看可用键盘列表。 选择加密符号以使用这一个。\n\n要从密码键盘切换，点击地球符号移动到下一个可用的键盘，或按住地球符号*可查看可用的键盘列表。\n";
+
+/* Class = "UILabel"; text = "*globe symbol =       "; ObjectID = "EdZ-ap-yiP"; */
+"EdZ-ap-yiP.text" = "*地球符号=       ";
+
+/* Class = "UIButton"; normalTitle = "< Back"; ObjectID = "MIR-Jg-jXw"; */
+"MIR-Jg-jXw.normalTitle" = "< 背部";
+
+/* Class = "UITextView"; text = "The Crytpo Keyboard currently supports the following symbols: ₿, Ξ, Ð, Ł, $, €, ¥, ₩, £, the numbers 0-9, the decimal point, comma, and backslash. \nNow you can use the symbols of your favorite coin in any text field (except secure fields and phone number fields). \n\nEnjoy the ease and convenience of adding these cryptocurrency and fiat currency symbols when sending texts and emails, posting on messages boards, posting on forums, posting on social media, and using in your favorite apps. \n\nIMPORTANT:\nThe Crypto Keyboard does not log, record, save, or manipulate your entries in any way other than entering your symbol where you want it.\n"; ObjectID = "v2w-yQ-oPw"; */
+"v2w-yQ-oPw.text" = "Crytpo Keyboard目前支持以下符号：₿，Ξ，Ð，Ł，$，€，¥，₩，£，数字0-9，小数点，逗号和反斜杠。 \n现在，您可以在任何文本字段中使用您最喜欢的硬币的符号（安全字段和电话号码字段除外）。 \n\n在发送文本和电子邮件时发送文本，在论坛上张贴，在社交媒体上张贴，并在您最喜爱的应用中使用，可以方便和方便地添加这些加密货币和法定货币符号。 \n\nIMPORTANT：\n加密键盘不会以您想要的方式输入符号以外的任何方式记录，记录，保存或操作您的条目。\n";
+
+/* Class = "UILabel"; text = "This is how you can use your new crypto keyboard:"; ObjectID = "vQx-0y-Zyi"; */
+"vQx-0y-Zyi.text" = "这是您如何使用新的密码键盘：";
