@@ -47,7 +47,7 @@ class KeyboardViewController: UIInputViewController {
         let string = button.titleLabel!.text
         (textDocumentProxy as UIKeyInput).insertText("\(string!)")
         
-        self.backingView.bringSubview(toFront: button)
+        self.backingView.bringSubviewToFront(button)
         UIDevice.current.playInputClick()
         UIView.animate(withDuration: 0.2, animations: { 
             button.transform = CGAffineTransform(scaleX: 2.5, y: 2.5)
