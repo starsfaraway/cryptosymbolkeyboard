@@ -21,6 +21,8 @@
 		A66A880C1EEE2B3600A3FD59 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A66A880B1EEE2B3600A3FD59 /* WelcomeViewController.swift */; };
 		C90373C71F06DA6C002BEF39 /* KeyboardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C90373C91F06DA6C002BEF39 /* KeyboardView.xib */; };
 		C90373D91F082C7C002BEF39 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = C90373DB1F082C7C002BEF39 /* Localizable.strings */; };
+		C94536A926DB3A3800D560C7 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C94536A826DB3A3800D560C7 /* Colors.xcassets */; };
+		C94536AA26DB3A3800D560C7 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C94536A826DB3A3800D560C7 /* Colors.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,6 +81,7 @@
 		C90373DD1F082C81002BEF39 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/Localizable.strings; sourceTree = "<group>"; };
 		C90373DE1F082C82002BEF39 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
 		C90373DF1F082C83002BEF39 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		C94536A826DB3A3800D560C7 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,6 +145,7 @@
 			isa = PBXGroup;
 			children = (
 				A66A87F71EED97DC00A3FD59 /* KeyboardViewController.swift */,
+				C94536A826DB3A3800D560C7 /* Colors.xcassets */,
 				C90373C91F06DA6C002BEF39 /* KeyboardView.xib */,
 				A66A88031EEDF8F200A3FD59 /* UIView+DropShadow.swift */,
 				A66A87F91EED97DC00A3FD59 /* Info.plist */,
@@ -236,6 +240,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 				es,
@@ -262,6 +267,7 @@
 				A64C62CA1EFD86300084965C /* Symbola.ttf in Resources */,
 				C90373D91F082C7C002BEF39 /* Localizable.strings in Resources */,
 				A66A87EA1EED979C00A3FD59 /* LaunchScreen.storyboard in Resources */,
+				C94536A926DB3A3800D560C7 /* Colors.xcassets in Resources */,
 				A66A87E71EED979C00A3FD59 /* Assets.xcassets in Resources */,
 				A66A87E51EED979C00A3FD59 /* Main.storyboard in Resources */,
 			);
@@ -271,6 +277,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C94536AA26DB3A3800D560C7 /* Colors.xcassets in Resources */,
 				A64C62CB1EFD86300084965C /* Symbola.ttf in Resources */,
 				C90373C71F06DA6C002BEF39 /* KeyboardView.xib in Resources */,
 			);
@@ -409,7 +416,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -461,7 +468,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -477,7 +484,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = LC6LA68FBS;
 				INFOPLIST_FILE = "Crypto Symbol Keyboard/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.farawaystars.Crypto-Symbol-Keyboard";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -493,7 +500,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = LC6LA68FBS;
 				INFOPLIST_FILE = "Crypto Symbol Keyboard/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.farawaystars.Crypto-Symbol-Keyboard";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -507,7 +514,7 @@
 			buildSettings = {
 				DEVELOPMENT_TEAM = LC6LA68FBS;
 				INFOPLIST_FILE = "Crypto Keyboard Ext/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.farawaystars.Crypto-Symbol-Keyboard.Crypto-Keyboard-Ext";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -522,7 +529,7 @@
 			buildSettings = {
 				DEVELOPMENT_TEAM = LC6LA68FBS;
 				INFOPLIST_FILE = "Crypto Keyboard Ext/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.farawaystars.Crypto-Symbol-Keyboard.Crypto-Keyboard-Ext";
 				PRODUCT_NAME = "$(TARGET_NAME)";

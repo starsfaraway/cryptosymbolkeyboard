@@ -29,33 +29,8 @@ class KeyboardViewController: UIInputViewController {
 
     }
     
-    override func viewWillAppear(_ animated: Bool) {
-        super.viewWillAppear(animated)
-        let proxy = self.textDocumentProxy
-        if proxy.keyboardAppearance == UIKeyboardAppearance.dark {
-            self.setupDarkKeyboard()
-        }
-    }
-    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-    }
-    
-    override func textWillChange(_ textInput: UITextInput?) {
-        // The app does not need to know about this
-    }
-    
-    override func textDidChange(_ textInput: UITextInput?) {
-        // The app does not need to know about this except to adjust the view
-        
-        var textColor: UIColor
-        let proxy = self.textDocumentProxy
-        if proxy.keyboardAppearance == UIKeyboardAppearance.dark {
-            textColor = UIColor.white
-        } else {
-            textColor = UIColor.black
-        }
-        self.nextKeyboardButton.setTitleColor(textColor, for: [])
     }
     
     //MARK: UI
@@ -65,19 +40,6 @@ class KeyboardViewController: UIInputViewController {
             view.addDropShadow(color: UIColor.black)
         }
     }
-    
-    func setupDarkKeyboard() {
-        for view in self.backingView.subviews {
-            for sView in view.subviews {
-                if let sButton : UIButton = sView as? UIButton {
-                    sButton.backgroundColor = UIColor.black
-                    sButton.setTitleColor(UIColor.white, for: UIControlState.normal)
-                    self.backingView.backgroundColor = UIColor.darkGray
-                }
-            }
-        }
-    }
-    
     
     //MARK: KEYBOARD BUTTON ACTIONS
     
